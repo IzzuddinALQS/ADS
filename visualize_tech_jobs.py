@@ -15,7 +15,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     # Menggunakan file lokal agar loading super cepat dan aman
-    df = pd.read_csv('tech_jobs_dataset.csv')
+    df = pd.read_csv('global_ai_jobs.csv')
     return df
 
 try:
