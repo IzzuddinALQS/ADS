@@ -14,7 +14,7 @@ st.set_page_config(
 # ── 2. CACHED DATA LOADING ──────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv('tech_jobs_dataset.csv')
+    df = pd.read_csv('global_ai_jobs.csv')
     return df
 
 try:
