@@ -58,7 +58,7 @@ if df_filtered.empty:
 # ── 5. HERO SECTION & KPI METRICS ───────────────────────────
 st.title("💼 Tech Jobs Market Intelligence Dashboard")
 st.markdown("Analisis tren gaji, pola kerja, dan distribusi peran industri teknologi secara dinamis.")
-st.hr()
+st.divider()
 
 # Baris Kartu Informasi Utama (KPIs)
 col_kpi1, col_kpi2, col_kpi3, col_kpi4 = st.columns(4)
